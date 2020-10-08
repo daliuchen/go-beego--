@@ -9,5 +9,7 @@
 
 ## 4. 特别说明
 session 使用redis，在使用前请搭建redis集群
-
+使用到的beego模块 看这俩图片
+[p1](WechatIMG1.png)
+[p1](WechatIMG2.png)
 **更多的说明请看 xmind文件**
