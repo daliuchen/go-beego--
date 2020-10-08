@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<h1>登录页面</h1>
+{{.message}}
+<form action="/login" method="post" id="UserDo" name="UserDo">
+用户名:<input type="text" name="userName"/> </br>
+密&nbsp;&nbsp;&nbsp;码:<input type="text" name="password"></br>
+<input type="submit" value="登录"/> &nbsp;&nbsp;&nbsp;<input type="button" value="注册"/>
+</form>
+<hr>
+<!--- 自定义标签来格式化时间 ------>
+当前时间:{{currentTime}}
+
+</body>
+</html>

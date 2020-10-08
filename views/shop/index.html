@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>首页</h1>
+<!-- 自定义标签 ，从session中获取数据--->
+<h2>当前登录用户:{{.userName}}</h2>
+<h2>当前时间:{{currentTime}}</h2>
+{{if .isAdmin }}
+    <a  href="managerShop.html">管理商品</a>
+{{end}}
+<h3>商品列表</h3>
+
+<table border="3" align="center">
+    <tr>
+        <td>商品名</td>
+        <td>商品价格</td>
+        <td>商品数量</td>
+        <td>操作</td>
+    </tr>
+    {{range .shopList}}
+    <tr>
+        <td>{{.Name}}</td>
+        <td>{{.Price}}</td>
+        <td>{{.Count}}</td>
+        <td><a href="javascript:buy({{.Id}})">购买</a></td>
+    </tr>
+    {{end}}
+</table>
+{{/*
+todo
+*/}}
+<h3><a href="/end">结账</a></h3>
+</body>
+<footer>
+    <a href="/logOut">退出</a>
+</footer>
+<script>
+    $(function (){
+
+    });
+    function buy(id){
+        $.get("/buy/" + id,function (data) {
+            console.log(data)
+            if(data.code == 200 || data.Code == 200){
+                alert("success")
+            }
+        } )
+    }
+</script>
+</html>

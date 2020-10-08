@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>结账</title>
+</head>
+<body>
+<h1>结账</h1>
+<h2>您购买的商品是：</h2>
+<table align="center" border="2">
+    <tr>
+        <td>商品名字</td>
+        <td>商品单价</td>
+        <td>购买数量</td>
+    </tr>
+    {{range .shopList}}
+        <tr>
+            <td>{{.Name}}</td>
+            <td>{{.Price}}</td>
+            <td>{{.Count}}</td>
+        </tr>
+    {{end}}
+</table>
+
+<h1><font color="red">总价:{{.sum}}</font></h1>
+
+<h2><a href="/giveMoney">结账</a></h2>
+</body>
+</html>

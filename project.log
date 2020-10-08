@@ -1,0 +1,44 @@
+2020/10/02 17:13:41.952 [I] [asm_amd64.s:1374]  http server Running on http://:8080
+2020/10/02 17:13:46.159 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    520.749µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:13:46.161 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|    1.10444ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:13:51.876 [D] [server.go:2843]  |            ::1|[97;43m 405 [0m|    194.967µs|   match|[97;46m POST    [0m /     r:/
+2020/10/02 17:13:51.921 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    380.446µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:14:12.976 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    194.251µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:14:12.978 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|   2.714318ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:14:19.294 [D] [server.go:2843]  |            ::1|[97;43m 405 [0m|    279.184µs|   match|[97;46m POST    [0m /     r:/
+2020/10/02 17:14:46.574 [E] [template.go:176]  parse template err: index.html template: index.html:9: unexpected <.> in operand
+2020/10/02 17:14:46.574 [W] [beego.go:103]  template: index.html:9: unexpected <.> in operand
+2020/10/02 17:14:58.373 [I] [asm_amd64.s:1374]  http server Running on http://:8080
+2020/10/02 17:15:00.572 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    455.035µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:15:00.573 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|   1.094692ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:15:39.869 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|     990.66µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:15:39.876 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|   2.227409ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:16:15.367 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|   2.663343ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:16:15.373 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    521.921µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:17:30.725 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    759.936µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:17:30.726 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|   4.472162ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:17:31.492 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    161.449µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:17:31.492 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|     655.62µs|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:17:32.181 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    220.772µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:17:32.182 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|    660.566µs|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:17:43.429 [D] [server.go:2843]  |            ::1|[97;43m 405 [0m|   1.065094ms|   match|[97;46m POST    [0m /     r:/
+2020/10/02 17:17:43.531 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    225.862µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:17:56.221 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|     163.69µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:17:56.223 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|   1.794607ms|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:18:27.367 [I] [asm_amd64.s:1374]  http server Running on http://:8080
+2020/10/02 17:18:30.439 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    308.999µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/10/02 17:18:30.439 [D] [server.go:2843]  |            ::1|[97;42m 200 [0m|    937.755µs|   match|[97;44m GET     [0m /     r:/
+2020/10/02 17:18:39.720 [default.go:36]  123 123
+2020/10/02 17:18:39.720 [C] [panic.go:969]  the request url is  /login
+2020/10/02 17:18:39.720 [C] [panic.go:969]  Handler crashed with error can't find templatefile in the path:views/maincontroller/login.tpl
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /usr/local/go/src/runtime/panic.go:969
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /Users/liuchen/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /Users/liuchen/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /Users/liuchen/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /Users/liuchen/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /Users/liuchen/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /usr/local/go/src/net/http/server.go:2843
+2020/10/02 17:18:39.720 [C] [panic.go:969]  /usr/local/go/src/net/http/server.go:1925
+2020/10/02 17:18:39.721 [C] [panic.go:969]  /usr/local/go/src/runtime/asm_amd64.s:1374
+2020/10/02 17:18:39.721 [server.go:3093]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/10/02 17:18:39.839 [D] [server.go:2843]  |            ::1|[97;43m 404 [0m|    263.011µs| nomatch|[97;44m GET     [0m /favicon.ico
